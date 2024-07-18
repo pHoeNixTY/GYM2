@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(pexels-anastasia-shuraeva-4944435.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#navbar {
+    background-color: rgb(252, 252, 252);
+    /* border: 2px solid red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1 {
+    /* border: 2px solid red; */
+    margin-top: 80px;
+}
+
+#logo {
+    /* border: 2px solid rgb(17, 0, 250); */
+    inline-size: 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#items {
+    /* border: 2px solid rebeccapurple; */
+    display: inline-block;
+    width: 1000px;
+
+
+}
+
+#login {
+    /* border: 2px solid red; */
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    padding-bottom: 10px;
+
+}
+
+#login,
+a {
+    text-decoration: none;
+    color: rgb(253, 0, 84);
+
+}
+
+#login img {
+    /* border: 2px solid red; */
+    align-items: center;
+    width: 22px;
+    position: relative;
+    top: 1px;
+
+}
+
+#loginnow {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 8px;
+    bottom: 5px;
+}
+
+#loginnow:hover {
+    color: rgb(243, 123, 163);
+}
+
+
+.item,
+li {
+    list-style: none;
+    /* border: 2px solid red; */
+    float: right;
+    width: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left: 60px;
+    bottom: 4px;
+}
+
+.menu {
+    color: rgb(0, 0, 0);
+}
+
+#join {
+    /* border: 2px solid red; */
+    float: right;
+    padding: 25px;
+    background-color: rgb(226, 40, 102);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#join:hover {
+    background-color: black;
+}
+
+.body {
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 1350px;
+    position: relative;
+    top: 200px;
+    font-size: xx-large;
+    color: rgb(243, 112, 5);
+}
+
+#button {
+    border: 2px solid whitesmoke;
+    padding: 15px 30px 15px 30px;
+    border-radius: 100px;
+    background: whitesmoke;
+    font-size: medium;
+    color: black;
+}
+
+#button:hover {
+    background-color: transparent;
+}
+
+#imgbottom {
+    /* border: 2px solid red; */
+    width: 50%;
+    border-radius: 10px;
+}
+
+#bottom {
+    /* border: 2px solid red; */
+    background-color: #fff;
+    /* margin: 0 -14px 0 -8px; */
+    position: relative;
+    top: 400px;
+    padding: 10px;
+    padding-bottom: 20px;
+
+}
+
+#bottompara {
+    float: right;
+    /* border: 2px solid red; */
+    padding: 140px 100px 0px 110px;
+}
+
+#bottomheading {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 65px;
+    bottom: 50px;
+    font-size: 30px;
+}
+
+#bottomparagraph {
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 440px;
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+#bottombimg {
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 50%;
+    float: right;
+}
+
+#bottomb {
+    /* border: 2px solid red; */
+    padding: 100px 10px 110px 10px;
+    width: 640px;
+    text-align: center;
+}
+
+#everyoneheading {
+    /* border: 2px solid red; */
+
+}
+
+#everyonepara {
+    /* border: 2px solid red; */
+    font-size: 20px;
+}
+
+#reserve {
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 15px 25px 15px 25px;
+    position: relative;
+    top: 50px;
+}
+
+#reserve:hover {
+    border: 2px solid rgb(226, 40, 102);
+    background-color: rgb(226, 40, 102);
+    color: #fff;
+}
+
+#foot {
+    border: 2px solid #dfd7d7;
+    background: #dfd7d7;
+    position: relative;
+    top: 410px;
+}
+
+#left {
+    /* border: 2px solid rgb(0, 0, 0); */
+    color: black;
+    display: inline-block;
+    margin: 50px;
+    padding: 10px 10px 10px 20px;
+    position: absolute;
+    top: 40px;
+    font-size: 25px;
+    left: 100px;
+
+}
+
+#social-media a {
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+
+#social-media {
+    /* border: 2px solid red; */
+    position: relative;
+    right: 12px;
+
+}
+
+.gram {
+    width: 15%;
+}
+
+#X {
+    width: 28px;
+    position: relative;
+    bottom: 6px;
+}
+
+#power {
+    /* border: 2px solid rgb(82, 19, 19); */
+    position: absolute;
+    display: inline;
+    bottom: 100px;
+    left: 160px;
+    font-size: 25px;
+
+}
+
+#mid {
+    border: 2px solid rgb(17, 7, 7);
+    background: #d3cdcd;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    position: relative;
+    left: 250px;
+
+}
+
+form input {
+    width: 300px;
+    margin: 10px;
+}
+
+#Add-a-Message {
+    margin: 10px;
+}
+
+#submit {
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    margin: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(238, 49, 112);
+    color: white;
+}
+
+#submit:hover {
+    background-color: rgb(206, 47, 47);
+}
